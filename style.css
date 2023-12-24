@@ -85,3 +85,9 @@ body {
   border-radius: 50px;
   border: none;
 }
+
+.main-container .thank-img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
