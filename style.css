@@ -99,9 +99,15 @@ body {
   border: none;
 }
 
+.main-container .submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+
+}
+
 .thank-container .thank-img {
   height: 135px;
-  width: 200px;
+  width: 203px;
   object-fit: cover;
   justify-self: center;
   margin-top: 15px;
