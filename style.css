@@ -16,6 +16,9 @@
 
 }
 body {
+  display: grid;
+  align-items: center;
+  height: 100vh;
   font-family: 'Overpass', sans-serif;
   font-size: 18px;
   background-color: var(--very-dark-blue);
@@ -26,7 +29,7 @@ body {
   color: var(--medium-Grey);
   font-weight: 600;
   width: 500px;
-  height: auto;
+  height: 520px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -75,6 +78,16 @@ body {
   border: none;
 }
 
+.main-container .numbers button:hover {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+.main-container .numbers .number.activo {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
 .main-container .submit {
   background-color: var(--orange);
   height: 55px;
@@ -86,8 +99,49 @@ body {
   border: none;
 }
 
-.main-container .thank-img {
-  height: 120px;
-  width: 120px;
+.thank-container .thank-img {
+  height: 135px;
+  width: 200px;
   object-fit: cover;
+  justify-self: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.thank-container {
+  display: none;
+  justify-items: center;
+  text-align: center;
+  background-color: var(--dark-blue);
+  color: var(--medium-Grey);
+  font-weight: 600;
+  width: 500px;
+  height: 520px;
+  margin: 0 auto;
+  padding: 40px 36px;
+  border-radius: 40px;
+}
+
+.thank-container .selected {
+  display: flex;
+  place-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--orange);
+  background-color: hsl(212, 19%, 26%);
+  width: 250px;
+  height: 40px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.thank-container h1 {
+  color: var(--white);
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.thank-container .thank-text {
+  font-size: 18px;
 }
