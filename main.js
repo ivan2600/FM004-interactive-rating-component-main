@@ -29,15 +29,4 @@ submit.addEventListener('click', ()=>{
   } else {
     alert('Select a rating!');
   }
-  
 })
-
-// container.addEventListener('click', function(event) {
-//   // Verificar si el clic ocurrió en un elemento con la clase 'boton'
-//   if (event.target.classList.contains('boton')) {
-  
-//     // Realizar acciones específicas para los botones
-//     console.log('Clickeaste un botón:', event.target.id);
-//     // Ejecutar funciones relevantes para los botones
-//   }
-// });

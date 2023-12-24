@@ -1,3 +1,5 @@
+https://ivan2600.github.io/FM004-interactive-rating-component-main/
+
 # Frontend Mentor - Interactive rating component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
