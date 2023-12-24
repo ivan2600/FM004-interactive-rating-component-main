@@ -145,3 +145,11 @@ body {
 .thank-container .thank-text {
   font-size: 18px;
 }
+
+.main-container.none {
+  display: none;
+}
+
+.thank-container.grid {
+  display: grid;
+}
